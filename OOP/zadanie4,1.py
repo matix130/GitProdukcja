@@ -11,7 +11,13 @@ class Produkt():
     def dej_cene(self):
         return self.cena
 
+class BasketEntry:
+    def __init__(self, product, quantity):
+        """
 
+        :param product:
+        :param quantity:
+        """
 
 
 class Basket:
