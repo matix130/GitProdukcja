@@ -16,6 +16,6 @@ prognozy = data["consolidated_weather"]
 for prognoza in prognozy:
     print(f"Dzień: {prognoza['applicable_date']}")
     print(f"Temperatura: {prognoza['the_temp']:.0f}")
-    print(f"Wilgotność: {prognoza['humidity']}")
+    print(f"Wilgotność: {prognoza['humidity']}")    
 
 #print(prognozy)
