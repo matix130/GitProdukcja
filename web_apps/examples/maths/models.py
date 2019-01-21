@@ -7,3 +7,4 @@ class Math (models.Model):
     a= models.IntegerField()
     b = models.IntegerField()
     wynik = models.TextField()
+    created=models.DateTimeField(auto_now=True)
