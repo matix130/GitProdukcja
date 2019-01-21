@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+To są moje książki:
+
+{%for k ksiazki %}
+<div class="book">
+    <h2>{{k.title}}
+    {{k.author}}
+    {{k.description}}
+    {{k.cover}}
+</div>
+{% endfor %}
+
 </body>
 </html>
